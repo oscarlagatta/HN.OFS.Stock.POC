@@ -1,0 +1,82 @@
+{
+    "data": [
+        {
+            "SeasonID": 61,
+            "SeasonName": "Recode Autumn / Winter 2017",
+            "SiteID": -1,
+            "SiteName": "All",
+            "DeptID": -1,
+            "DeptDesc": "All",
+            "BrandID": -1,
+            "BrandDesc": "All",
+            "ProfileID": 1,
+            "ProfileName" : "March 2017",
+            "Buffer": 100
+        },
+        {
+            "SeasonID": 61,
+            "SeasonName": "Recode Autumn / Winter 2017",
+            "SiteID": 1,
+            "SiteName": "Knightsbridge",
+            "DeptID": -1,
+            "DeptDesc": "All",
+            "BrandID": -1,
+            "BrandDesc": "All",
+            "ProfileID": 1,
+            "ProfileName" : "March 2017",
+            "Buffer": 100
+        },
+        {
+            "SeasonID": 61,
+            "SeasonName": "Recode Autumn / Winter 2017",
+            "SiteID": 1,
+            "SiteName": "Knightsbridge",
+            "DeptID": 12,
+            "DeptDesc": "MENS CASUALWEAR",
+            "BrandID": -1,
+            "BrandDesc": "All",
+            "ProfileID": 1,
+            "ProfileName" : "March 2017",
+            "Buffer": 100
+        },
+        {
+            "SeasonID": 61,
+            "SeasonName": "Recode Autumn / Winter 2017",
+            "SiteID": 1,
+            "SiteName": "Knightsbridge",
+            "DeptID": 12,
+            "DeptDesc": "MENS CASUALWEAR",
+            "BrandID": 135,
+            "BrandDesc": "ARMANI COLLEZIONI",
+            "ProfileID": 2,
+            "ProfileName" : "March 2017 5.1",
+            "Buffer": 100
+        },
+        {
+            "SeasonID": 60,
+            "SeasonName": "Recode Autumn/Winter 2016",
+            "SiteID": 5,
+            "SiteName": "Birmingham",
+            "DeptID": 16,
+            "DeptDesc": "MENS APPAREL",
+            "BrandID": 157,
+            "BrandDesc": "ASSYMETRY",
+            "ProfileID": 2,
+            "ProfileName" : "March 2017 5.1",
+            "Buffer": 15
+        },
+        {
+            "SeasonID": 59,
+            "SeasonName": "Autumn / Winter 2017",
+            "SiteID": 8,
+            "SiteName": "Dublin",
+            "DeptID": 38,
+            "DeptDesc": "SUNGLASSES",
+            "BrandID": 134,
+            "BrandDesc": "ARMANI ACCESSORIES",
+            "ProfileID": 3,
+            "ProfileName" : "March 2017 5.2",
+            "Buffer": 90
+        }
+    ]
+}

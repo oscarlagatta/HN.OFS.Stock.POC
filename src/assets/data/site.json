@@ -1,0 +1,463 @@
+{
+    "data": [
+        {
+            "SiteID": 1,
+            "SiteName": "BIRMINGHAM",
+            "SiteAvailable": 1,
+            "ShortDescription": "BH",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "3"
+        },
+        {
+            "SiteID": 2,
+            "SiteName": "COLETTE",
+            "SiteAvailable": 0,
+            "ShortDescription": "COLE",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "COLE"
+        },
+        {
+            "SiteID": 3,
+            "SiteName": "DO NOT USE",
+            "SiteAvailable": 0,
+            "ShortDescription": "N/A",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "66"
+        },
+        {
+            "SiteID": 4,
+            "SiteName": "DUBAI",
+            "SiteAvailable": 0,
+            "ShortDescription": "DUBA",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "DUBA"
+        },
+        {
+            "SiteID": 5,
+            "SiteName": "DUBLIN",
+            "SiteAvailable": 1,
+            "ShortDescription": "DB",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "7"
+        },
+        {
+            "SiteID": 6,
+            "SiteName": "DUBLIN TEMPORARY WAREHOUSE",
+            "SiteAvailable": 0,
+            "ShortDescription": "DTDC",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "57"
+        },
+        {
+            "SiteID": 7,
+            "SiteName": "EDINBURGH",
+            "SiteAvailable": 1,
+            "ShortDescription": "ED",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "5"
+        },
+        {
+            "SiteID": 8,
+            "SiteName": "EXPORT WAREHOUSE",
+            "SiteAvailable": 0,
+            "ShortDescription": "EXPO",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "65"
+        },
+        {
+            "SiteID": 9,
+            "SiteName": "FASHION WAREHOUSE",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC F",
+            "DeliveryLocation": "1",
+            "SiteType": "W",
+            "MSiteID": "50"
+        },
+        {
+            "SiteID": 10,
+            "SiteName": "FOOD WAREHOUSE",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC G",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "60"
+        },
+        {
+            "SiteID": 11,
+            "SiteName": "FOOD WASTAGE WAREHOUSE",
+            "SiteAvailable": 0,
+            "ShortDescription": "WAST",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9966"
+        },
+        {
+            "SiteID": 12,
+            "SiteName": "GK REYJKAVIK",
+            "SiteAvailable": 0,
+            "ShortDescription": "GKRY",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "GKRV"
+        },
+        {
+            "SiteID": 13,
+            "SiteName": "HAMPERS",
+            "SiteAvailable": 0,
+            "ShortDescription": "HAMP",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "HAMP"
+        },
+        {
+            "SiteID": 14,
+            "SiteName": "HARVEY NICHOLS ON-LINE",
+            "SiteAvailable": 1,
+            "ShortDescription": "ECOM",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "2"
+        },
+        {
+            "SiteID": 15,
+            "SiteName": "HOLT RENFREW",
+            "SiteAvailable": 0,
+            "ShortDescription": "HOLT",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "HOLT"
+        },
+        {
+            "SiteID": 16,
+            "SiteName": "Hong Kong",
+            "SiteAvailable": 0,
+            "ShortDescription": "HONK",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "HONK"
+        },
+        {
+            "SiteID": 17,
+            "SiteName": "IFORCE - OLD",
+            "SiteAvailable": 0,
+            "ShortDescription": "I/OL",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "IFRC"
+        },
+        {
+            "SiteID": 18,
+            "SiteName": "INTERNATIONAL FOOD LINK LTD",
+            "SiteAvailable": 0,
+            "ShortDescription": "IFL",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "IFL"
+        },
+        {
+            "SiteID": 19,
+            "SiteName": "ISTANBUL",
+            "SiteAvailable": 0,
+            "ShortDescription": "ISTB",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "ISTB"
+        },
+        {
+            "SiteID": 20,
+            "SiteName": "KNIGHTSBRIDGE",
+            "SiteAvailable": 1,
+            "ShortDescription": "KB",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "1"
+        },
+        {
+            "SiteID": 21,
+            "SiteName": "KOKUBU",
+            "SiteAvailable": 0,
+            "ShortDescription": "KOKU",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "KOKU"
+        },
+        {
+            "SiteID": 22,
+            "SiteName": "LEEDS",
+            "SiteAvailable": 1,
+            "ShortDescription": "LD",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "4"
+        },
+        {
+            "SiteID": 23,
+            "SiteName": "LOGISMOSE",
+            "SiteAvailable": 0,
+            "ShortDescription": "LOGI",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "LOGI"
+        },
+        {
+            "SiteID": 24,
+            "SiteName": "MANCHESTER",
+            "SiteAvailable": 1,
+            "ShortDescription": "MN",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "6"
+        },
+        {
+            "SiteID": 25,
+            "SiteName": "MARMALADE",
+            "SiteAvailable": 0,
+            "ShortDescription": "MARM",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "MARM"
+        },
+        {
+            "SiteID": 26,
+            "SiteName": "OXO TOWER",
+            "SiteAvailable": 0,
+            "ShortDescription": "OXO",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "20"
+        },
+        {
+            "SiteID": 27,
+            "SiteName": "PACKSHOT PHOTOGRAPHERS",
+            "SiteAvailable": 1,
+            "ShortDescription": "PACK",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "PACK"
+        },
+        {
+            "SiteID": 28,
+            "SiteName": "PRISM",
+            "SiteAvailable": 0,
+            "ShortDescription": "PRIS",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "25"
+        },
+        {
+            "SiteID": 29,
+            "SiteName": "RECALL WAREHOUSE",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC R",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "95"
+        },
+        {
+            "SiteID": 30,
+            "SiteName": "RIYADH",
+            "SiteAvailable": 0,
+            "ShortDescription": "RIYA",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "RIYA"
+        },
+        {
+            "SiteID": 31,
+            "SiteName": "SPICERS",
+            "SiteAvailable": 0,
+            "ShortDescription": "SPCE",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "SPCE"
+        },
+        {
+            "SiteID": 32,
+            "SiteName": "TRIOMPHE",
+            "SiteAvailable": 0,
+            "ShortDescription": "TRIO",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "TRIO"
+        },
+        {
+            "SiteID": 33,
+            "SiteName": "W/hse 0050 - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC F",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9998"
+        },
+        {
+            "SiteID": 34,
+            "SiteName": "W/hse 0050 - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC F",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9999"
+        },
+        {
+            "SiteID": 35,
+            "SiteName": "W/hse 0057 - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "DTDC",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9994"
+        },
+        {
+            "SiteID": 36,
+            "SiteName": "W/hse 0057 - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "DTDC",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9995"
+        },
+        {
+            "SiteID": 37,
+            "SiteName": "W/hse 0060 - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC G",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9984"
+        },
+        {
+            "SiteID": 38,
+            "SiteName": "W/hse 0060 - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC G",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9985"
+        },
+        {
+            "SiteID": 39,
+            "SiteName": "W/hse 0065 - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "EXPO",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9992"
+        },
+        {
+            "SiteID": 40,
+            "SiteName": "W/hse 0065 - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "EXPO",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9993"
+        },
+        {
+            "SiteID": 41,
+            "SiteName": "W/hse 0066 - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "N/A",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9990"
+        },
+        {
+            "SiteID": 42,
+            "SiteName": "W/hse 0066 - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "N/A",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9991"
+        },
+        {
+            "SiteID": 43,
+            "SiteName": "W/hse 0095 - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC R",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9986"
+        },
+        {
+            "SiteID": 44,
+            "SiteName": "W/hse 0095 - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "DC R",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9987"
+        },
+        {
+            "SiteID": 45,
+            "SiteName": "W/hse 9966 - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "WAST",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9988"
+        },
+        {
+            "SiteID": 46,
+            "SiteName": "W/hse 9966 - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "WAST",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9989"
+        },
+        {
+            "SiteID": 47,
+            "SiteName": "W/hse HAMP - Damages",
+            "SiteAvailable": 0,
+            "ShortDescription": "HAMP",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9996"
+        },
+        {
+            "SiteID": 48,
+            "SiteName": "W/hse HAMP - Return to Vendor",
+            "SiteAvailable": 0,
+            "ShortDescription": "HAMP",
+            "DeliveryLocation": null,
+            "SiteType": "W",
+            "MSiteID": "9997"
+        },
+        {
+            "SiteID": 50,
+            "SiteName": "ORBITAL IMAGES",
+            "SiteAvailable": 0,
+            "ShortDescription": "ORB",
+            "DeliveryLocation": null,
+            "SiteType": "B",
+            "MSiteID": "ORBI"
+        },
+        {
+            "SiteID": 51,
+            "SiteName": "BRISTOL",
+            "SiteAvailable": 1,
+            "ShortDescription": "BRIS",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "9"
+        },
+        {
+            "SiteID": 53,
+            "SiteName": "LIVERPOOL",
+            "SiteAvailable": 1,
+            "ShortDescription": "LP",
+            "DeliveryLocation": "1",
+            "SiteType": "B",
+            "MSiteID": "18"
+        }
+    ]
+}

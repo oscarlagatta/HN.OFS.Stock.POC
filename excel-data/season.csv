@@ -1,0 +1,63 @@
+SeasonID,SeasonName,MSeasonCode,DefaultExchangeRateGroup
+1,Autumn / Winter 2002,AW02,NULL
+2,Autumn / Winter 2003,AW03,NULL
+3,Autumn / Winter 2004,AW04,NULL
+4,Autumn / Winter 2005,AW05,NULL
+5,Autumn / Winter 2006,AW06,NULL
+6,Autumn / Winter 2007,AW07,NULL
+7,Continuity,CONT,17
+8,Discontinued Continuity,DISC,NULL
+9,Recode Autumn / Winter 2005,RA05,NULL
+10,Recode Autumn/Winter 2006,RA06,NULL
+11,Recode Spring / Summer 2006,RS06,NULL
+12,Recode Spring / Summer 2007,RS07,NULL
+13,Spring / Summer 2002,SS02,NULL
+14,Spring / Summer 2003,SS03,NULL
+15,Spring / Summer 2004,SS04,NULL
+16,Spring / Summer 2005,SS05,NULL
+17,Spring / Summer 2006,SS06,NULL
+18,Spring / Summer 2007,SS07,NULL
+19,Spring / Summer 2008,SS08,NULL
+20,Autumn / Winter 2008,AW08,NULL
+21,Recode Autumn/Winter 2007,RA07,NULL
+22,SPRING / SUMMER 2009,SS09,NULL
+23,Recode Spring / Summer 2008,RS08,NULL
+24,Autumn / Winter 2009,AW09,2
+25,Spring / Summer 2010,SS10,6
+26,Autumn / Winter 2010,AW10,8
+27,Recode Spring / Summer 2009,RS09,NULL
+28,SEASONAL CONTINUITY,SCON,NULL
+29,Spring / Summer 2011,SS11,11
+30,DO NOT USE,MA09,NULL
+31,Recode Autumn / Winter 2009,RA09,NULL
+32,Autumn / Winter 2011,AW11,16
+33,Recode Spring / Summer 2010,RS10,NULL
+34,Spring / Summer 2012,SS12,22
+35,Recode Autumn / Winter 2010,RA10,NULL
+36,Autumn / Winter 2012,AW12,NULL
+37,Recode Spring / Summer 2011,RS11,NULL
+38,Recode Autumn / Winter 2011,RA11,NULL
+39,Spring / Summer 2013,SS13,NULL
+40,Recode Spring / Summer 2012,RS12,NULL
+41,Autumn / Winter 2013,AW13,NULL
+42,Spring / Summer 2014,SS14,NULL
+43,Recode Autumn / Winter 2012,RA12,NULL
+44,Recode Spring / Summer 2013,RS13,NULL
+45,Autumn / Winter 2014,AW14,NULL
+46,Recode Autumn / Winter 2013,RA13,NULL
+47,Spring / Summer 2015,SS15,NULL
+48,DISCONTINUED ONLINE,DCON,NULL
+49,Autumn / Winter 2015,AW15,NULL
+50,Mark Down Continuity,MCON,NULL
+51,Mark Down Seasonal Continuity,MSCO,NULL
+52,Recode Autumn / Winter 2014,RA14,NULL
+53,Spring / Summer 2016,SS16,NULL
+54,Recode Spring / Summer 2015,RS15,NULL
+55,Autumn / Winter 2016,AW16,NULL
+56,Recode Autumn/Winter 2015,RA15,NULL
+57,Spring / Summer 2017,SS17,NULL
+58,Recode Spring / Summer 2016,RS16,NULL
+59,Autumn / Winter 2017,AW17,NULL
+60,Recode Autumn/Winter 2016,RA16,NULL
+61,Recode Autumn / Winter 2017,RS17,NULL
+62,Spring / Summer 2018,SS18,NULL

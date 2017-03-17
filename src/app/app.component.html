@@ -1,0 +1,233 @@
+<div class="data-container">
+<p-tabView (onChange)="handleProfileTabChange($event)">
+    <p-tabPanel header="Stock Buffer Profiles" leftIcon="fa-calendar" >
+        <!--profiles table -->
+        <div>
+          <!--<p-panel header="Stock Buffer Profiles">-->
+                <div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
+                    <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
+                    <input #pf type="text" pInputText size="30" placeholder="Profiles Filter">
+                </div>
+               
+                <div class="datatable">
+                    <p-dataTable [value]="profiles" selectionMode="single" [(selection)]="selectedProfile" (onRowSelect)="onRowSelectedProfile($event)"
+                      [paginator]="true" rows="10" [responsive]="true" [globalFilter]="pf" #dt>
+                      <p-header>Profile List</p-header>
+                      <!--<p-column field="ProfileID" header="ID" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>-->
+                      <p-column field="ProfileDate" header="Date" [sortable]="true"  [filter]="true" filterPlaceholder="Search" [style]="{'width':'200px'}"></p-column>
+                      <p-column field="ProfileName" header="Profile Name" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+                      <p-column field="ProfileActive" header="Active Profile" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+
+
+                      <p-footer>
+                        <div class="ui-helper-clearfix" style="width:100%">
+                          <button type="button" pButton icon="fa-check" style="float:left" (click)="showDialogRuleTableAdd()" label="Create New Profile"></button>
+                        </div>
+                      </p-footer>
+                    </p-dataTable>
+                </div>
+          <!--</p-panel>-->
+        </div>
+<!-- end profiles table -->
+    </p-tabPanel>
+    <p-tabPanel header="Stock Buffer Rules" leftIcon="fa-bolt">
+        <!--Stock Buffers Table-->
+        <div >
+            <!--<p-panel header="Stock Buffers">-->
+              <div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
+                <div class="ui-grid-row">
+                    <div class="ui-grid-col-2"><label for="ProfileID">Profile ID</label></div>  
+                    <div class="ui-grid-col-8"><input pInputText id="ProfileID" [(ngModel)]="selectedProfileID" disabled="disabled" /></div>
+                </div>
+                <div class="ui-grid-row">
+                    <div class="ui-grid-col-2"><label for="ProfileName">Profile Name</label></div>  
+                    <div class="ui-grid-col-8"><input pInputText id="ProfileName" [(ngModel)]="selectedProfileName" disabled="disabled" /></div>
+                </div>
+                <div class="ui-grid-row">
+                    <div class="ui-grid-col-2"><label for="ProfileData">Profile Created On</label></div>  
+                    <div class="ui-grid-col-8"><input pInputText id="ProfileDate" [(ngModel)]="selectedProfileDate" disabled="disabled" /></div>
+                </div>
+              </div>
+                
+                <div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
+                    <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
+                    <input #gb type="text" pInputText size="30" placeholder="Profiles Filter" [ngModel]="">
+                </div>
+                <div class="datatable">
+                    <p-dataTable [value]="rules" selectionMode="single" [(selection)]="selectedRule" (onRowSelect)="onRowSelectedRule($event)"
+                      [paginator]="true" rows="10" [responsive]="true" [globalFilter]="gb" #dt>
+                      <p-header>Rules</p-header>
+                      <!--<p-column field="ProfileName" header="Profile" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>-->
+                      <p-column field="SeasonName" header="Season" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+                      <p-column field="SiteName" header="Site Name" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+                      <p-column field="DeptDesc" header="Department" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+                      <p-column field="BrandDesc" header="Brand" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+                      <p-column field="Buffer" header="Buffer" [sortable]="true"  [filter]="true" filterPlaceholder="Search" ></p-column>
+                      <p-footer>
+                        <div class="ui-helper-clearfix" style="width:100%">
+                          <button type="button" pButton icon="fa-plus" style="float:left" (click)="showDialogRuleToAdd()" label="Add Rule"></button>
+                          <button type="button" pButton icon="fa-check" style="float:right" (click)="confirm()" label="Commit"></button>
+                        </div>
+                      </p-footer>
+                    </p-dataTable>
+                </div>
+            <!--</p-panel>-->
+        </div>
+    </p-tabPanel>
+</p-tabView>
+
+</div>
+
+
+
+
+
+<!--Stock Buffers Table-->
+<!--<div class="data-container">
+    <p-panel header="Stock Buffers">
+        <div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
+            <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
+            <input #gb type="text" pInputText size="30" placeholder="Global Filter">
+        </div>
+        <div class="datatable">
+            <p-dataTable [value]="rules" selectionMode="single" [(selection)]="selectedRule" (onRowSelect)="onRowSelectedRule($event)"
+              [paginator]="true" rows="10" [responsive]="true" [globalFilter]="gb" #dt>
+              <p-header>Rules</p-header>
+              <p-column field="SeasonName" header="Season" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+              <p-column field="SiteName" header="Site Name" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+              <p-column field="DeptDesc" header="Department" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+              <p-column field="BrandDesc" header="Brand" [sortable]="true"  [filter]="true" filterPlaceholder="Search"></p-column>
+              <p-column field="Buffer" header="Buffer" [sortable]="true"  [filter]="true" filterPlaceholder="Search" ></p-column>
+              <p-footer>
+                <div class="ui-helper-clearfix" style="width:100%">
+                  <button type="button" pButton icon="fa-plus" style="float:left" (click)="showDialogRuleToAdd()" label="Add Rule"></button>
+                  <button type="button" pButton icon="fa-check" style="float:right" (click)="confirm()" label="Commit"></button>
+                </div>
+              </p-footer>
+            </p-dataTable>
+        </div>
+    </p-panel>
+</div>-->
+
+
+<!--Rules Details Dialog Box -->
+
+<p-dialog header="Rule Details" [(visible)]="displayRuleDialog" [responsive]="true" showEffect="fade" [modal]="true">
+  <div class="ui-grid ui-grid-responsive ui-fluid" *ngIf="rule" style="width: 650px; height: 420px">
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="SeasonName">Season</label></div>
+      <div class="ui-grid-col-4">
+        <p-dropdown [options]="seasonDropDownData" [(ngModel)]="selectedSeason" [filter]="true" [style]="{'width':'280px'}" (onChange)="onChange_Season($event)" ></p-dropdown>
+      </div>
+    </div>
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="SiteName">Site</label></div>
+      <div class="ui-grid-col-8"><p-dropdown [options]="siteDropDownData" [(ngModel)]="selectedSite" [filter]="true" [style]="{'width':'250px'}" (onChange)="onChange_Site($event)"></p-dropdown></div>
+    </div>
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="DepartmentName">Department</label></div>
+      <div class="ui-grid-col-8">  <p-dropdown [options]="departmentDropDownData" [(ngModel)]="selectedDepartment" [filter]="true" [style]="{'width':'250px'}" (onChange)="onChange_Department($event)"></p-dropdown></div>
+    </div>
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="BrandDesc">Brand</label></div>
+      <div class="ui-grid-col-8"> <p-dropdown [options]="brandDropDownData" [(ngModel)]="selectedBrand" [filter]="true" [style]="{'width':'250px'}" (onChange)="onChange_Brand($event)"></p-dropdown></div>
+    </div>
+
+    <!--<div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="BrandDesc">Profile</label></div>
+      <div class="ui-grid-col-8"> <p-dropdown [options]="profileDropDownData" [(ngModel)]="selectedProfile" [filter]="true" [style]="{'width':'250px'}" (onChange)="onChange_Profile($event)"></p-dropdown></div>
+    </div>-->
+
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="BufferQtty">Buffer</label></div>  
+      <div class="ui-grid-col-6"><input pInputText id="BufferQtty" [(ngModel)]="rule.Buffer" style="width: 100px" required tooltipEvent="focus" tooltipPosition="bottom" pTooltip="(0 : White Listed Rule)   ||   (-1 : Black Listed Rule)  ||  (## : Buffer Quantity)"/></div>
+      <div class="ui-grid-col-2"></div>
+    </div>
+  </div>
+  <p-footer>
+    <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+      <button type="button" pButton icon="fa-close" (click)="confirmDelete()" label="Delete"></button>
+      <button type="button" pButton icon="fa-check" (click)="confirm()" label="Save"></button>
+      <button type="button" pButton icon="fa-question" (click)="help()" style="float: left" label="Help"></button>
+    </div>
+  </p-footer>
+</p-dialog>
+
+
+<!--Help Dialog Box-->
+<p-dialog header="Buffer Help" [(visible)]="displayHelpDialog" modal="modal" width="300" responsive="true">
+    <div>
+      <p>This page will allow you create any number of rules in the following sequence:</p>
+      <ul>
+        <li>Season</li>
+        <li>Season > Store</li>
+        <li>Season > Store > Department</li>
+        <li>Season > Store > Department > Brand</li>
+      </ul>
+      <p>Also to enter a defined buffer value as follows:</p>
+      <ul>
+        <li> 0 : White Listed Rule</li>
+        <li>-1 : Black Listed Rule</li>
+        <li>## : Buffer Quantity</li>
+      </ul>
+    </div>
+</p-dialog>
+
+
+<p-growl [value]="msgs"></p-growl>
+
+<p-confirmDialog header="Confirmation" icon="fa fa-question-circle" width="425"></p-confirmDialog>
+
+<!--SEASONS CRUD-->
+<!-- /////// -->
+
+<!--<p-panel [toggleable]="true">
+  <p-header>
+    <div class="ui-helper-clearfix">
+      <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">Seasons</span>
+    </div>
+  </p-header>
+  <div class="data-container">
+    <div class="datatable">
+      <p-dataTable [value]="seasons" selectionMode="single" [(selection)]="selectedSeason" (onRowSelect)="onRowSelectSeason($event)"
+        [paginator]="true" rows="10" [responsive]="true">
+        <p-header>Seasons</p-header>
+        <p-column field="SeasonID" header="Season ID" [sortable]="true"></p-column>
+        <p-column field="SeasonName" header="SeasonName" [sortable]="true"></p-column>
+        <p-column field="MSeasonCode" header="MSeasonCode" [sortable]="true"></p-column>
+        <p-column field="DefaultExchangeRateGroup" header="DefaultExchangeRateGroup" [sortable]="true"></p-column>
+        <p-footer>
+          <div class="ui-helper-clearfix" style="width:100%"><button type="button" pButton icon="fa-plus" style="float:left" (click)="showDialogSeasonToAdd()" label="Add"></button></div>
+        </p-footer>
+      </p-dataTable>
+    </div>
+  </div>
+</p-panel>-->
+
+<!--Seasons Details Dialog Box-->
+<!--<p-dialog header="Season Details" [(visible)]="displaySeasonDialog" [responsive]="true" showEffect="fade" [modal]="true">
+  <div class="ui-grid ui-grid-responsive ui-fluid" *ngIf="season">
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="SeasonID">SeasonID</label></div>
+      <div class="ui-grid-col-8"><input pInputText id="SeasonID" [(ngModel)]="season.SeasonID" /></div>
+    </div>
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="SeasonName">Name</label></div>
+      <div class="ui-grid-col-8"><input pInputText id="SeasonName" [(ngModel)]="season.SeasonName" /></div>
+    </div>
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="MSeasonCode">SeasonCode</label></div>
+      <div class="ui-grid-col-8"><input pInputText id="MSeasonCode" [(ngModel)]="season.MSeasonCode" /></div>
+    </div>
+    <div class="ui-grid-row">
+      <div class="ui-grid-col-4"><label for="DefaultExchangeRateGroup">Default Exchange Rate Group</label></div>
+      <div class="ui-grid-col-8"><input pInputText id="DefaultExchangeRateGroup" [(ngModel)]="season.DefaultExchangeRateGroup" /></div>
+    </div>
+  </div>
+  <p-footer>
+    <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+      <button type="button" pButton icon="fa-close" (click)="deleteSeason()" label="Delete"></button>
+      <button type="button" pButton icon="fa-check" (click)="saveSeason()" label="Save"></button>
+    </div>
+  </p-footer>
+</p-dialog>-->

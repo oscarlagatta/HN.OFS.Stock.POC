@@ -1,0 +1,376 @@
+{
+    "data": [
+        {
+            "SeasonID": 1,
+            "SeasonName": "Autumn / Winter 2002",
+            "MSeasonCode": "AW02",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 2,
+            "SeasonName": "Autumn / Winter 2003",
+            "MSeasonCode": "AW03",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 3,
+            "SeasonName": "Autumn / Winter 2004",
+            "MSeasonCode": "AW04",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 4,
+            "SeasonName": "Autumn / Winter 2005",
+            "MSeasonCode": "AW05",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 5,
+            "SeasonName": "Autumn / Winter 2006",
+            "MSeasonCode": "AW06",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 6,
+            "SeasonName": "Autumn / Winter 2007",
+            "MSeasonCode": "AW07",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 7,
+            "SeasonName": "Continuity",
+            "MSeasonCode": "CONT",
+            "DefaultExchangeRateGroup": "17"
+        },
+        {
+            "SeasonID": 8,
+            "SeasonName": "Discontinued Continuity",
+            "MSeasonCode": "DISC",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 9,
+            "SeasonName": "Recode Autumn / Winter 2005",
+            "MSeasonCode": "RA05",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 10,
+            "SeasonName": "Recode Autumn/Winter 2006",
+            "MSeasonCode": "RA06",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 11,
+            "SeasonName": "Recode Spring / Summer 2006",
+            "MSeasonCode": "RS06",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 12,
+            "SeasonName": "Recode Spring / Summer 2007",
+            "MSeasonCode": "RS07",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 13,
+            "SeasonName": "Spring / Summer 2002",
+            "MSeasonCode": "SS02",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 14,
+            "SeasonName": "Spring / Summer 2003",
+            "MSeasonCode": "SS03",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 15,
+            "SeasonName": "Spring / Summer 2004",
+            "MSeasonCode": "SS04",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 16,
+            "SeasonName": "Spring / Summer 2005",
+            "MSeasonCode": "SS05",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 17,
+            "SeasonName": "Spring / Summer 2006",
+            "MSeasonCode": "SS06",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 18,
+            "SeasonName": "Spring / Summer 2007",
+            "MSeasonCode": "SS07",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 19,
+            "SeasonName": "Spring / Summer 2008",
+            "MSeasonCode": "SS08",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 20,
+            "SeasonName": "Autumn / Winter 2008",
+            "MSeasonCode": "AW08",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 21,
+            "SeasonName": "Recode Autumn/Winter 2007",
+            "MSeasonCode": "RA07",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 22,
+            "SeasonName": "SPRING / SUMMER 2009",
+            "MSeasonCode": "SS09",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 23,
+            "SeasonName": "Recode Spring / Summer 2008",
+            "MSeasonCode": "RS08",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 24,
+            "SeasonName": "Autumn / Winter 2009",
+            "MSeasonCode": "AW09",
+            "DefaultExchangeRateGroup": "2"
+        },
+        {
+            "SeasonID": 25,
+            "SeasonName": "Spring / Summer 2010",
+            "MSeasonCode": "SS10",
+            "DefaultExchangeRateGroup": "6"
+        },
+        {
+            "SeasonID": 26,
+            "SeasonName": "Autumn / Winter 2010",
+            "MSeasonCode": "AW10",
+            "DefaultExchangeRateGroup": "8"
+        },
+        {
+            "SeasonID": 27,
+            "SeasonName": "Recode Spring / Summer 2009",
+            "MSeasonCode": "RS09",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 28,
+            "SeasonName": "SEASONAL CONTINUITY",
+            "MSeasonCode": "SCON",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 29,
+            "SeasonName": "Spring / Summer 2011",
+            "MSeasonCode": "SS11",
+            "DefaultExchangeRateGroup": "11"
+        },
+        {
+            "SeasonID": 30,
+            "SeasonName": "DO NOT USE",
+            "MSeasonCode": "MA09",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 31,
+            "SeasonName": "Recode Autumn / Winter 2009",
+            "MSeasonCode": "RA09",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 32,
+            "SeasonName": "Autumn / Winter 2011",
+            "MSeasonCode": "AW11",
+            "DefaultExchangeRateGroup": "16"
+        },
+        {
+            "SeasonID": 33,
+            "SeasonName": "Recode Spring / Summer 2010",
+            "MSeasonCode": "RS10",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 34,
+            "SeasonName": "Spring / Summer 2012",
+            "MSeasonCode": "SS12",
+            "DefaultExchangeRateGroup": "22"
+        },
+        {
+            "SeasonID": 35,
+            "SeasonName": "Recode Autumn / Winter 2010",
+            "MSeasonCode": "RA10",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 36,
+            "SeasonName": "Autumn / Winter 2012",
+            "MSeasonCode": "AW12",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 37,
+            "SeasonName": "Recode Spring / Summer 2011",
+            "MSeasonCode": "RS11",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 38,
+            "SeasonName": "Recode Autumn / Winter 2011",
+            "MSeasonCode": "RA11",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 39,
+            "SeasonName": "Spring / Summer 2013",
+            "MSeasonCode": "SS13",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 40,
+            "SeasonName": "Recode Spring / Summer 2012",
+            "MSeasonCode": "RS12",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 41,
+            "SeasonName": "Autumn / Winter 2013",
+            "MSeasonCode": "AW13",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 42,
+            "SeasonName": "Spring / Summer 2014",
+            "MSeasonCode": "SS14",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 43,
+            "SeasonName": "Recode Autumn / Winter 2012",
+            "MSeasonCode": "RA12",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 44,
+            "SeasonName": "Recode Spring / Summer 2013",
+            "MSeasonCode": "RS13",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 45,
+            "SeasonName": "Autumn / Winter 2014",
+            "MSeasonCode": "AW14",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 46,
+            "SeasonName": "Recode Autumn / Winter 2013",
+            "MSeasonCode": "RA13",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 47,
+            "SeasonName": "Spring / Summer 2015",
+            "MSeasonCode": "SS15",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 48,
+            "SeasonName": "DISCONTINUED ONLINE",
+            "MSeasonCode": "DCON",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 49,
+            "SeasonName": "Autumn / Winter 2015",
+            "MSeasonCode": "AW15",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 50,
+            "SeasonName": "Mark Down Continuity",
+            "MSeasonCode": "MCON",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 51,
+            "SeasonName": "Mark Down Seasonal Continuity",
+            "MSeasonCode": "MSCO",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 52,
+            "SeasonName": "Recode Autumn / Winter 2014",
+            "MSeasonCode": "RA14",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 53,
+            "SeasonName": "Spring / Summer 2016",
+            "MSeasonCode": "SS16",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 54,
+            "SeasonName": "Recode Spring / Summer 2015",
+            "MSeasonCode": "RS15",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 55,
+            "SeasonName": "Autumn / Winter 2016",
+            "MSeasonCode": "AW16",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 56,
+            "SeasonName": "Recode Autumn/Winter 2015",
+            "MSeasonCode": "RA15",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 57,
+            "SeasonName": "Spring / Summer 2017",
+            "MSeasonCode": "SS17",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 58,
+            "SeasonName": "Recode Spring / Summer 2016",
+            "MSeasonCode": "RS16",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 59,
+            "SeasonName": "Autumn / Winter 2017",
+            "MSeasonCode": "AW17",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 60,
+            "SeasonName": "Recode Autumn/Winter 2016",
+            "MSeasonCode": "RA16",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 61,
+            "SeasonName": "Recode Autumn / Winter 2017",
+            "MSeasonCode": "RS17",
+            "DefaultExchangeRateGroup": null
+        },
+        {
+            "SeasonID": 62,
+            "SeasonName": "Spring / Summer 2018",
+            "MSeasonCode": "SS18",
+            "DefaultExchangeRateGroup": null
+        }
+    ]
+}

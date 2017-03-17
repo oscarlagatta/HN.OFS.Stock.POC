@@ -1,0 +1,823 @@
+{
+    "data": [
+        {
+            "DeptID": 1,
+            "DeptDesc": "EVENING WEAR",
+            "MDeptID": 100,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 2,
+            "DeptDesc": "INTERNATIONAL DESIGNERS",
+            "MDeptID": 101,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 514
+        },
+        {
+            "DeptID": 3,
+            "DeptDesc": "CONTEMPORARY DESIGNERS",
+            "MDeptID": 102,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 46
+        },
+        {
+            "DeptID": 4,
+            "DeptDesc": "RALPH LAUREN WOMENS",
+            "MDeptID": 103,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 5,
+            "DeptDesc": "MAX & CO",
+            "MDeptID": 104,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 6,
+            "DeptDesc": "RALPH LAUREN SPORT",
+            "MDeptID": 105,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 7,
+            "DeptDesc": "CONTEMPORARY DESIGNERS",
+            "MDeptID": 106,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 378
+        },
+        {
+            "DeptID": 8,
+            "DeptDesc": "DESIGNER BRIDGE",
+            "MDeptID": 107,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 653
+        },
+        {
+            "DeptID": 9,
+            "DeptDesc": "DENIM & CONTEMPORARY COLLECTS",
+            "MDeptID": 108,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 378
+        },
+        {
+            "DeptID": 10,
+            "DeptDesc": "OWN BRAND WOMENSWEAR",
+            "MDeptID": 109,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 28
+        },
+        {
+            "DeptID": 11,
+            "DeptDesc": "MARELLA",
+            "MDeptID": 110,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 12,
+            "DeptDesc": "MENS CASUALWEAR",
+            "MDeptID": 111,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 9
+        },
+        {
+            "DeptID": 13,
+            "DeptDesc": "TAILORING",
+            "MDeptID": 112,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 242
+        },
+        {
+            "DeptID": 14,
+            "DeptDesc": "SHIRTS",
+            "MDeptID": 113,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 242
+        },
+        {
+            "DeptID": 15,
+            "DeptDesc": "TIES",
+            "MDeptID": 114,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 242
+        },
+        {
+            "DeptID": 16,
+            "DeptDesc": "MENS APPAREL",
+            "MDeptID": 115,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 432
+        },
+        {
+            "DeptID": 17,
+            "DeptDesc": "MENS ACCESSORIES",
+            "MDeptID": 116,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 669
+        },
+        {
+            "DeptID": 18,
+            "DeptDesc": "CONTEMPORARY",
+            "MDeptID": 117,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 946
+        },
+        {
+            "DeptID": 19,
+            "DeptDesc": "SWIMWEAR",
+            "MDeptID": 118,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 669
+        },
+        {
+            "DeptID": 20,
+            "DeptDesc": "INTERNATIONAL",
+            "MDeptID": 119,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 669
+        },
+        {
+            "DeptID": 21,
+            "DeptDesc": "MENS MAGAZINE",
+            "MDeptID": 120,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 22,
+            "DeptDesc": "HARVEY NICHOLS MENS",
+            "MDeptID": 121,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 946
+        },
+        {
+            "DeptID": 23,
+            "DeptDesc": "BELTS",
+            "MDeptID": 122,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 304
+        },
+        {
+            "DeptID": 24,
+            "DeptDesc": "HATS",
+            "MDeptID": 123,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 298
+        },
+        {
+            "DeptID": 25,
+            "DeptDesc": "GLOVES",
+            "MDeptID": 124,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 298
+        },
+        {
+            "DeptID": 26,
+            "DeptDesc": "HANDBAGS",
+            "MDeptID": 125,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 27,
+            "DeptDesc": "SCARVES",
+            "MDeptID": 126,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 122
+        },
+        {
+            "DeptID": 28,
+            "DeptDesc": "JEWELLERY",
+            "MDeptID": 127,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 290
+        },
+        {
+            "DeptID": 29,
+            "DeptDesc": "GUCCI",
+            "MDeptID": 128,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 30,
+            "DeptDesc": "ANYA HINDMARCH",
+            "MDeptID": 129,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 31,
+            "DeptDesc": "INTERNATIONAL ACCESSORIES 3",
+            "MDeptID": 130,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 290
+        },
+        {
+            "DeptID": 32,
+            "DeptDesc": "CONTEMPORARY ACCESSORIES 03",
+            "MDeptID": 131,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 122
+        },
+        {
+            "DeptID": 33,
+            "DeptDesc": "OWN BRAND ACCESSORIES",
+            "MDeptID": 132,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 135
+        },
+        {
+            "DeptID": 34,
+            "DeptDesc": "BEACHWEAR",
+            "MDeptID": 133,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 653
+        },
+        {
+            "DeptID": 35,
+            "DeptDesc": "HOSIERY",
+            "MDeptID": 134,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 653
+        },
+        {
+            "DeptID": 36,
+            "DeptDesc": "LINGERIE",
+            "MDeptID": 135,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 653
+        },
+        {
+            "DeptID": 37,
+            "DeptDesc": "LOUNGEWEAR",
+            "MDeptID": 136,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 206
+        },
+        {
+            "DeptID": 38,
+            "DeptDesc": "SUNGLASSES",
+            "MDeptID": 137,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 146
+        },
+        {
+            "DeptID": 39,
+            "DeptDesc": "PERFUMERY",
+            "MDeptID": 138,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 403
+        },
+        {
+            "DeptID": 40,
+            "DeptDesc": "BEYOND BEAUTY",
+            "MDeptID": 139,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 117
+        },
+        {
+            "DeptID": 41,
+            "DeptDesc": "WOMENS SHOES",
+            "MDeptID": 140,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 374
+        },
+        {
+            "DeptID": 42,
+            "DeptDesc": "CONTEMPORARY SHOES",
+            "MDeptID": 141,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 374
+        },
+        {
+            "DeptID": 43,
+            "DeptDesc": "GROCERY",
+            "MDeptID": 143,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 162
+        },
+        {
+            "DeptID": 44,
+            "DeptDesc": "INTERNATIONAL ACCESSORIES 2",
+            "MDeptID": 154,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 289
+        },
+        {
+            "DeptID": 45,
+            "DeptDesc": "CONTEMPORARY ACCESSORIES 02",
+            "MDeptID": 155,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 289
+        },
+        {
+            "DeptID": 46,
+            "DeptDesc": "CASUALWEAR ACCESSORIES",
+            "MDeptID": 156,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 289
+        },
+        {
+            "DeptID": 47,
+            "DeptDesc": "OLIVER SWEENEY",
+            "MDeptID": 157,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 289
+        },
+        {
+            "DeptID": 48,
+            "DeptDesc": "BEYOND SPA",
+            "MDeptID": 728,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 297
+        },
+        {
+            "DeptID": 49,
+            "DeptDesc": "Home Shopping Gift Boxes",
+            "MDeptID": 735,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 37
+        },
+        {
+            "DeptID": 50,
+            "DeptDesc": "System Dump Department",
+            "MDeptID": 999,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 19
+        },
+        {
+            "DeptID": 51,
+            "DeptDesc": "GREETINGS CARDS",
+            "MDeptID": 751,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 37
+        },
+        {
+            "DeptID": 52,
+            "DeptDesc": "JOINT BEVERAGE",
+            "MDeptID": 174,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 8
+        },
+        {
+            "DeptID": 53,
+            "DeptDesc": "KITCHEN STOCK",
+            "MDeptID": 175,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 8
+        },
+        {
+            "DeptID": 54,
+            "DeptDesc": "CHINA AND GLASS",
+            "MDeptID": 176,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 246
+        },
+        {
+            "DeptID": 55,
+            "DeptDesc": "BEVERAGE",
+            "MDeptID": 148,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 8
+        },
+        {
+            "DeptID": 56,
+            "DeptDesc": "ACCESSORIES",
+            "MDeptID": 152,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 8
+        },
+        {
+            "DeptID": 57,
+            "DeptDesc": "TOBACCO",
+            "MDeptID": 153,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 8
+        },
+        {
+            "DeptID": 58,
+            "DeptDesc": "LIFESTYLE",
+            "MDeptID": 177,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 290
+        },
+        {
+            "DeptID": 59,
+            "DeptDesc": "AMANDA WAKELY ONLINE",
+            "MDeptID": 788,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 139
+        },
+        {
+            "DeptID": 60,
+            "DeptDesc": "OLD SEASON",
+            "MDeptID": 178,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 203
+        },
+        {
+            "DeptID": 61,
+            "DeptDesc": "MENSWEAR OWN LABEL",
+            "MDeptID": 179,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 9
+        },
+        {
+            "DeptID": 62,
+            "DeptDesc": "DO NOT USE",
+            "MDeptID": 180,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 164
+        },
+        {
+            "DeptID": 63,
+            "DeptDesc": "MENSWEAR SHOES",
+            "MDeptID": 181,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 669
+        },
+        {
+            "DeptID": 64,
+            "DeptDesc": "ST DUPONT",
+            "MDeptID": 810,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 31
+        },
+        {
+            "DeptID": 65,
+            "DeptDesc": "JET 8",
+            "MDeptID": 183,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 78
+        },
+        {
+            "DeptID": 66,
+            "DeptDesc": "BEAUTY BAZAAR ACCESSORIES",
+            "MDeptID": 184,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 146
+        },
+        {
+            "DeptID": 67,
+            "DeptDesc": "MENSWEAR COLLABORATIONS",
+            "MDeptID": 186,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 739
+        },
+        {
+            "DeptID": 68,
+            "DeptDesc": "CONCESSION PLEATS PLEASE",
+            "MDeptID": 869,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 146
+        },
+        {
+            "DeptID": 69,
+            "DeptDesc": "BEAUTY GWP",
+            "MDeptID": 187,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 17
+        },
+        {
+            "DeptID": 70,
+            "DeptDesc": "KIDSWEAR",
+            "MDeptID": 188,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 122
+        },
+        {
+            "DeptID": 71,
+            "DeptDesc": "MENSWEAR LIFESTYLE",
+            "MDeptID": 189,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 669
+        },
+        {
+            "DeptID": 72,
+            "DeptDesc": "CHRISTMAS AND LIFESTYLE",
+            "MDeptID": 873,
+            "HierarchyLevel": 3,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 152
+        },
+        {
+            "DeptID": 73,
+            "DeptDesc": "WW Clothing Mirakl",
+            "MDeptID": 901,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 74,
+            "DeptDesc": "WW shoes Mirakl",
+            "MDeptID": 902,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 75,
+            "DeptDesc": "MW Clothing Mirakl",
+            "MDeptID": 911,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 76,
+            "DeptDesc": "MW shoes Mirakl",
+            "MDeptID": 912,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 77,
+            "DeptDesc": "WW Accessories Mirakl",
+            "MDeptID": 921,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 78,
+            "DeptDesc": "MW Accessories Mirakl",
+            "MDeptID": 922,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 79,
+            "DeptDesc": "BTY Skincare Mirakl",
+            "MDeptID": 941,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 80,
+            "DeptDesc": "BTY Makeup Mirakl",
+            "MDeptID": 942,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 81,
+            "DeptDesc": "BTY Fragrance Mirakl",
+            "MDeptID": 943,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 82,
+            "DeptDesc": "BTY Body Mirakl",
+            "MDeptID": 944,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 83,
+            "DeptDesc": "Unisex Luggage  & Lifestyle",
+            "MDeptID": 923,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 84,
+            "DeptDesc": "GirlsWear MP",
+            "MDeptID": 951,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 85,
+            "DeptDesc": "BoysWear MP",
+            "MDeptID": 952,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 86,
+            "DeptDesc": "BabyWear MP",
+            "MDeptID": 953,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 87,
+            "DeptDesc": "Beauty Tester",
+            "MDeptID": 200,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 403
+        },
+        {
+            "DeptID": 88,
+            "DeptDesc": "Homeware Marketplace",
+            "MDeptID": 961,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 89,
+            "DeptDesc": "Kitchenware Marketplace",
+            "MDeptID": 962,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 835
+        },
+        {
+            "DeptID": 90,
+            "DeptDesc": "test",
+            "MDeptID": 201,
+            "HierarchyLevel": 1,
+            "BasicMatrix": "M",
+            "PricePer": 0,
+            "DefaultBuyerID": 403
+        },
+        {
+            "DeptID": 91,
+            "DeptDesc": "HAMPERS & GIFTING",
+            "MDeptID": 202,
+            "HierarchyLevel": 2,
+            "BasicMatrix": "B",
+            "PricePer": 0,
+            "DefaultBuyerID": 700
+        }
+    ]
+}
