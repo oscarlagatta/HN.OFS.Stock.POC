@@ -1,5 +1,17 @@
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
+# Stock Buffers
+
+## Screen that manages stock buffers through a proof of concept
+Enable the user to create any number of rules in the following sequence:
+
+1. Season
+2. Season > Store
+3. Season > Store > Department
+4. Season > Store > Department > Brand
+
+
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
