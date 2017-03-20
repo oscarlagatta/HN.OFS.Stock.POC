@@ -42,7 +42,7 @@ To get more help on the `angular-cli` use `ng --help` or go check out the [Angul
 
 
 
-## Angular CLI 
+## Regarding The Angular CLI 
 
 This project was built using the Angular-CLI which today is a real good state, The idea behind is been always good but the team working behind is quite small, is just a couple of folks working full time and the community. But what they built from what I see is really good set of tools to helps us create a solid starting point for an angular application; that seed project; and then from there customize it the way you want so you get good testing; build and deploy processes and code generation processes along the way. And they are very close to build a shippable product. But in terms of reliability there are only few edge cases when combining few things then this problem happens. But if you are using it today is really close to what will be released. 
 
